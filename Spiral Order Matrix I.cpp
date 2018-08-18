@@ -1,4 +1,4 @@
-Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order.
+/*Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order.
 
 Example:
 
@@ -14,7 +14,7 @@ You should return
 [1, 2, 3, 6, 9, 8, 7, 4, 5]
 
 Solution:
-
+*/
 vector<int> Solution::spiralOrder(const vector<vector<int> > &A) {
     int k=0,l=0;
     int m=A[0].size();

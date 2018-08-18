@@ -1,4 +1,4 @@
-Please Note:
+/*Please Note:
 There are certain problems which are asked in the interview to also check how you take care of overflows in your problem.
 This is one of those problems.
 Please take extra care to make sure that you are type-casting your ints to long properly and at all places. 
@@ -28,7 +28,7 @@ Output:[3, 4]
 A = 3, B = 4
 
 Solution:
-
+*/
 vector<int> Solution::repeatedNumber(const vector<int> &A) {
     vector<int> B;
     long long int len=A.size();

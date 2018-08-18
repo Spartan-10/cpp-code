@@ -1,4 +1,4 @@
-Given a read only array of n + 1 integers between 1 and n, 
+/*Given a read only array of n + 1 integers between 1 and n, 
 find one number that repeats in linear time using less than O(n) space and traversing the stream sequentially O(1) times.
 
 Sample Input:
@@ -12,7 +12,7 @@ If there are multiple possible answers ( like in the sample case above ), output
 If there is no duplicate, output -1
 
 Solution:
-
+*/
 int Solution::repeatedNumber(const vector<int> &A) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.

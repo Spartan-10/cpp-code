@@ -1,4 +1,4 @@
-Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
+/*Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
 
 For example:
 
@@ -9,7 +9,7 @@ the contiguous subarray [4,-1,2,1] has the largest sum = 6.
 For this problem, return the maximum sum
 
 Solution:
-
+*/
 int Solution::maxSubArray(const vector<int> &A) {
     
     int max_sum=INT_MIN;

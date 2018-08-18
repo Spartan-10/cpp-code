@@ -1,4 +1,4 @@
-Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and column to 0.
+/*Given an m x n matrix of 0s and 1s, if an element is 0, set its entire row and column to 0.
 
 Do it in place.
 
@@ -16,6 +16,8 @@ On returning, the array A should be :
 1 0 1
 
 Solution:
+*/
+
 
 void Solution::setZeroes(vector<vector<int> > &A) {
     // Do not write main() function.

@@ -1,4 +1,4 @@
-Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
+/*Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
 
 Example:
 
@@ -14,7 +14,7 @@ You should return the following matrix:
 
 
 Solution:
-
+*/
 vector<vector<int> > Solution::generateMatrix(int A) {
     
     vector<vector<int>> B(A,vector<int>(A));

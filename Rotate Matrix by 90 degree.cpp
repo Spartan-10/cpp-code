@@ -1,4 +1,4 @@
-You are given an n x n 2D matrix representing an image.
+/*You are given an n x n 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
 
@@ -23,7 +23,7 @@ Then the rotated array becomes:
 
 
 Solution:
-
+*/
 
 void Solution::rotate(vector<vector<int> > &A) {
     // Do not write main() function.
